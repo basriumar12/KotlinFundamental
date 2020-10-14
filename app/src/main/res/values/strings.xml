@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kotlin Pertama</string>
+    <string name="title">Kotlin Data</string>
+    <string name="masukan_nilai_1">Masukan nilai 1</string>
+    <string name="masukan_nilai_2">Masukan Nilai 2</string>
+    <string name="hitung">Hitung</string>
+    <string name="selamat_datang">SELAMAT DATANG</string>
+</resources>

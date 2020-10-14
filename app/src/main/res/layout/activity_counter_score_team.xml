@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CounterScoreTeam">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:background="#FFC107"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="Team A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_score_team_a"
+            android:textStyle="bold"
+            android:textSize="80sp"
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginBottom="20dp"
+            android:id="@+id/btn_team_a"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:text="+1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:background="#03A9F4"
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="Team B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_score_team_b"
+            android:textStyle="bold"
+            android:textSize="80sp"
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_team_b"
+            android:layout_gravity="center"
+            android:textSize="24sp"
+            android:text="+1"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:background="#DD2020"
+        android:text="Reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
